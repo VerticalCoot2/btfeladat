@@ -1,0 +1,68 @@
+body
+{
+  font-family: sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#content
+{
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  width: 930px;
+}
+
+p
+{
+  text-indent: 25px;
+  text-align: justify;
+}
+
+.frame
+{
+  width: 380px;
+  float: right;
+  padding: 0px 5px 5px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.frame img
+{
+  width: 390px;
+  position: relative;
+  left: -5px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+h1, h2
+{
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+p.imgtitle
+{
+  font-size: 1.1em;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  line-height: 130%;
+}
+
+table
+{
+  border: 3px solid #0A82F7;
+}
+
+table
+{
+  margin-right: 20px;
+  background-color: rgba(227, 225, 233, 0.3);
+}
