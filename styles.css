@@ -3,6 +3,10 @@ body
   font-family: sans-serif;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url('hatter.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 #content
@@ -14,6 +18,12 @@ body
   margin-bottom: 20px;
   padding: 40px;
   width: 930px;
+}
+
+span
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic
 }
 
 p
@@ -58,11 +68,13 @@ p.imgtitle
 
 table
 {
-  border: 3px solid #0A82F7;
-}
-
-table
-{
+  border: 3px solid ;
+  border-color: #0A82F7;
   margin-right: 20px;
   background-color: rgba(227, 225, 233, 0.3);
 }
+.border
+{
+  background-color: #0A82F7;
+}
+
